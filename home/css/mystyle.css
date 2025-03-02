@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E4E2CF;
+    color: #5B7B57;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5B7B57;
+    padding: 15px 30px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-icons input {
+    padding: 5px;
+    border: 1px solid #8FAB98;
+    background-color: #ECEAE4;
+    color: #5B7B57;
+}
+
+.hero {
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: #6A8E66;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+}
+
+.shop-now {
+    background-color: #8FAB98;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.brands, .categories {
+    padding: 20px;
+    background-color: #BFD0C1;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.brand-list, .category-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.brand-list li, .category-list li {
+    background-color: #ECEAE4;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #5B7B57;
+}
+
+.products {
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #BFD0C1;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #5B7B57;
+    color: white;
+    margin-top: 20px;
+}
